@@ -42,7 +42,6 @@ Users should be able to:
 - [Slick slider](https://kenwheeler.github.io/slick/) - JS plugin
 - [Air datepicker](https://air-datepicker.com/ru) - JS plugin
 
-
 ### Continued development
 
 ## Author
