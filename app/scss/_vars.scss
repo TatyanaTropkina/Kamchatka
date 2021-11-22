@@ -1,0 +1,162 @@
+@function max($numbers...) {
+	@return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+	@return m#{a}x(#{$numbers});
+}
+
+%roboto-regular {
+	font-family: "Roboto-Regular", serif;
+	font-weight: 400;
+}
+
+%roboto-black {
+	font-family: "Roboto-Black", serif;
+	font-weight: 900;
+}
+
+%inter-black {
+	font-family: "Inter-Black", serif;
+	font-weight: 900;
+}
+
+%inter-bold {
+	font-family: "Inter-Bold", serif;
+	font-weight: 700;
+}
+
+%lato-bold {
+	font-family: "Lato-Bold", serif;
+	font-weight: 700;
+}
+
+%lato-light {
+	font-family: "Lato-Light", serif;
+	font-weight: 300;
+}
+
+%lato-basic {
+	font-family: "Lato-Regular", serif;
+	font-weight: 400;
+}
+
+%lato {
+	font-family: "Lato-Regular", serif;
+	font-weight: 400;
+}
+
+%lato-medium {
+	font-family: "Lato-Medium", serif;
+	font-weight: 500;
+}
+
+%content {
+	position: absolute;
+	content: '';
+}
+
+%O {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+$primary:#275553;
+$secondary: #F47648;
+$black: #212121;
+$dark-grey: #5A5A5A;
+$grey: #BABABA;
+
+$transition: all .2s;
+
+[class^="__icon-"]::before,
+[class*=" __icon-"]::before {
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: absolute;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+.__icon-arrow:before {
+	content: "\e900";
+}
+
+.__icon-arrow-top-right:before {
+	content: "\e901";
+}
+
+.__icon-calendar:before {
+	content: "\e902";
+}
+
+.__icon-check-mark:before {
+	content: "\e903";
+}
+
+.__icon-clock:before {
+	content: "\e904";
+}
+
+.__icon-currency:before {
+	content: "\e905";
+}
+
+.__icon-facebook-fill:before {
+	content: "\e906";
+}
+
+.__icon-facebook-stroke:before {
+	content: "\e907";
+	font-size: 23px;
+}
+
+.__icon-hotel:before {
+	content: "\e908";
+}
+
+.__icon-instagram-fill:before {
+	content: "\e909";
+}
+
+.__icon-inst-stroke:before {
+	content: "\e90a";
+	font-size: 24px;
+}
+
+.__icon-mail:before {
+	content: "\e90c";
+}
+
+.__icon-minus:before {
+	content: "\e90d";
+}
+
+.__icon-plus:before {
+	content: "\e90e";
+}
+
+.__icon-spot:before {
+	content: "\e90f";
+}
+
+.__icon-steps:before {
+	content: "\e910";
+}
+
+.__icon-video-btn:before {
+	content: "\e911";
+}
+
+.__icon-vk-stroke:before {
+	content: "\e912";
+	font-size: 30px;
+}
